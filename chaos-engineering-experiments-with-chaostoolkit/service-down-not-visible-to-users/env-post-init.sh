@@ -10,7 +10,7 @@ function main () {
     launch.sh
 
     echo "Preparing the Python environment"
-    mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk
+    #mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk
     source ~/.venvs/chaostk/bin/activate
 
     echo "Installing chaostoolkit"
