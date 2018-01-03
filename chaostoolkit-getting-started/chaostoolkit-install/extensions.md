@@ -12,3 +12,7 @@ All extensions work the same way, so let's install one as an example:
 This fetches the
 [chaostoolkit-kubernetes](https://github.com/chaostoolkit/chaostoolkit-kubernetes)
 and installs all its dependencies before installing the extension itself.
+
+You may check that this extension was properly installed with `pip`:
+
+`pip freeze | grep chaostoolkit`{{execute}}
