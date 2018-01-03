@@ -14,7 +14,6 @@
         }],
         "intro": {
             "text": "intro.md",
-            "courseData": "env-init.sh",
             "code": "env-post-init.sh"
         },
         "finish": {
