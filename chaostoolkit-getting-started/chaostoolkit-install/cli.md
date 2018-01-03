@@ -24,6 +24,10 @@ To install it run the following:
 
 `pip install -U chaostoolkit`{{execute}}
 
+*Note* that `pip` may complain while installing some dependencies, these
+warnings are nothing to worry about and will not prevent those dependencies
+from being installed.
+
 Now, the `chaos` comand should be available:
 
 `chaos --help`{{execute}}
