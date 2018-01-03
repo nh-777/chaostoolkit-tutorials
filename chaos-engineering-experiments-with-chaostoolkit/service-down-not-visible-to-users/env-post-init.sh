@@ -2,10 +2,10 @@
 
 function main () {
     echo "Updating package database"
-    apt-get update -qq
+    apt-get -qq -o=Dpkg::Use-Pty=0 update
 
     echo "Installing system-wide required packages"
-    apt-get install -y -qq python3-dev python3-venv
+    apt-get -qq -o=Dpkg::Use-Pty=0 install -y python3-dev python3-venv
 
     echo "Preparing the Python environment"
     mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk
@@ -26,4 +26,5 @@ function main () {
 }
 
 main "$@" || exit 1
+clear
 exit 0

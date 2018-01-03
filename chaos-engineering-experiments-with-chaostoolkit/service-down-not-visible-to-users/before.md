@@ -15,6 +15,6 @@ Before we get going, let's deploy our application:
 
 Wait until the system settles:
 
-`k get pods -w`{{execute}}
+`kubectl get all`{{execute}}
 
 Once the services are running, you can call them as follows:
