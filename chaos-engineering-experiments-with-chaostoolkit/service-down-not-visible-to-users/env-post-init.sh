@@ -9,6 +9,8 @@ function main () {
     echo "Starting Kubernetes cluster"
     launch.sh
 
+    sleep 20s
+
     echo "Preparing the Python environment"
     mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk
     source ~/.venvs/chaostk/bin/activate
