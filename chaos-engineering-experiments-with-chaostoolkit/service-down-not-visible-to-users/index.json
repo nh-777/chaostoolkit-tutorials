@@ -5,12 +5,12 @@
     "time": "15 minutes",
     "details": {
         "steps": [{
-            "title": "Install the Chaos Toolkit CLI",
-            "text": "cli.md"
+            "title": "Explore our system weakness",
+            "text": "before.md"
         },
         {
-            "title": "Install Chaos Toolkit Extensions",
-            "text": "extensions.md"
+            "title": "Respond to the weakness",
+            "text": "after.md"
         }],
         "intro": {
             "text": "intro.md",
