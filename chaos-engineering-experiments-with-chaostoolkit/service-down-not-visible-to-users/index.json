@@ -1,8 +1,8 @@
 {
-    "title": "Install the Chaos Toolkit",
-    "description": "Install the Chaos Toolkit CLI and Extensions",
+    "title": "Service Down Not Visible To Users",
+    "description": "Where an experiment is executes that highlights a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.",
     "difficulty": "beginner",
-    "time": "5 minutes",
+    "time": "15 minutes",
     "details": {
         "steps": [{
             "title": "Install the Chaos Toolkit CLI",
