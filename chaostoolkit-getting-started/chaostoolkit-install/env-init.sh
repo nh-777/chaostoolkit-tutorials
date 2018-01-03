@@ -1,2 +1,2 @@
 apt-get update
-apt-install -y python3-venv
+apt-get install -y python3-venv
