@@ -2,12 +2,10 @@ The Chaos Toolkit CLI, called `chaos`, is a Python program that is executed
 in your terminal. It exposes various built-in commands performing different
 tasks.
 
-The Chaos Toolkit expects [Python 3][py3k] to run. Let's make sure you run
-at least Python 3.5:
+The Chaos Toolkit expects [Python 3](https://www.python.org/) to run. Let's
+make sure you run at least Python 3.5:
 
 `python3 -V`{{execute}}
-
-[py3k]: https://www.python.org/
 
 Usually, the `python` binary refers to Python 2 so make sure you use `python3`
 in your commands.

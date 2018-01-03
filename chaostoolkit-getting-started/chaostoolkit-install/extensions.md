@@ -9,7 +9,6 @@ All extensions work the same way, so let's install one as an example:
 
 `pip install -U chaostoolkit-kubernetes`{{execute}}
 
-This fetches the [chaostoolkit-kubernetes][chaosk8s] and installs all its
-dependencies before installing the extension itself.
-
-[chaosk8s]: https://github.com/chaostoolkit/chaostoolkit-kubernetes
+This fetches the
+[chaostoolkit-kubernetes](https://github.com/chaostoolkit/chaostoolkit-kubernetes)
+and installs all its dependencies before installing the extension itself.
