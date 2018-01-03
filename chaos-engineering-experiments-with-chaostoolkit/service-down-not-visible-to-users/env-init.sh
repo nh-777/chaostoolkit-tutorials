@@ -1,1 +1,3 @@
-ssh root@host01 "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y python3-dev python3-venv && mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk && source ~/.venvs/chaostk/bin/activate && pip install -q -U chaostoolkit chaostoolkit-kubernetes && git clone --depth 1 https://github.com/chaostoolkit/chaostoolkit-samples.git && cd chaostoolkit-samples/service-down-not-visible-to-users"
+ssh root@host01 "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y python3-dev python3-venv"
+
+#&& mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk && source ~/.venvs/chaostk/bin/activate && pip install -q -U chaostoolkit chaostoolkit-kubernetes && git clone --depth 1 https://github.com/chaostoolkit/chaostoolkit-samples.git && cd chaostoolkit-samples/service-down-not-visible-to-users"
