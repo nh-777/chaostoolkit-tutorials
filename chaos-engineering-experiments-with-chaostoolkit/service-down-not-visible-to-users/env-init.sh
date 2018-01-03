@@ -1,1 +1,0 @@
-ssh root@host01 "apt-get update -qq && apt-get install -y -qq python3-dev python3-venv"
