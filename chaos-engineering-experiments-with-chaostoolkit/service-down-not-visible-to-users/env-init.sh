@@ -2,6 +2,8 @@
 set -eo pipefail
 
 function main () {
+    export DEBIAN_FRONTEND=noninteractive
+    
     apt-get update
 
     apt-get install -y -q python3-dev python3-venv
