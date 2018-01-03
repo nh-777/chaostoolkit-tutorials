@@ -14,7 +14,8 @@
         }],
       "intro": {
         "text": "intro.md",
-        "credits": ""
+        "credits": "Chaos Toolkit team",
+        "courseData": "env-init.sh"
       },
       "finish": {
         "text": "finish.md"
