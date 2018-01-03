@@ -14,7 +14,8 @@
         }],
         "intro": {
             "text": "intro.md",
-            "courseData": "env-init.sh"
+            "courseData": "env-init.sh",
+            "code": "launch.sh"
         },
         "finish": {
             "text": "finish.md"
