@@ -1,7 +1,9 @@
 #!/bin/bash
-set -eo pipefail
 
 function main () {
+    echo "Updating package database"
+    apt-get update -qq
+
     echo "Installing system-wide required packages"
     apt-get install -y -qq python3-dev python3-venv
 
