@@ -29,7 +29,7 @@ function main () {
     fi
 
     local samples_git="https://github.com/chaostoolkit/chaostoolkit-samples.git"
-    if ! git clone --depth 1 $samples_git; then
+    if ! git clone --quiet --depth 1 $samples_git; then
         echo "failed to clone ${samples_git}"
         return 1
     fi
