@@ -44,7 +44,7 @@ directory. Then add the necessary common data:
 
 Any number of markdown files holding the content of the scenario.
 
-### Code
+### Code
 
 From a code perspective, if you wish to contribute, you will need to run a 
 Python 3.5+ environment. Then, fork this repository and submit a PR. The
