@@ -1,1 +1,0 @@
-ssh root@host01 "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y python3-dev python3-venv && mkdir ~/.venvs && python3 -m venv ~/.venvs/chaostk && source ~/.venvs/chaostk/bin/activate && pip install -q -U chaostoolkit chaostoolkit-kubernetes"
