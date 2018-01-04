@@ -4,6 +4,10 @@ be used to execute a chaos experiment that has been defined in
 [Chaos Toolkit's](http://chaostoolkit.org/) 
 [open format](http://chaostoolkit.org/overview/concepts/).
 
+**Please Note:** It may take a little time to initialise the environment as this 
+is the first step in this scenario. Make sure the bash terminal reports that 
+the enviroment is ready before continuing.
+
 To use the `chaos` 
 command you need to turn on the Python virtual environment that the command 
 is installed into:
