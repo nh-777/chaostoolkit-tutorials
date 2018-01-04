@@ -18,6 +18,11 @@
         },
         "finish": {
             "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
+            ]
         }
     },
     "environment": {
