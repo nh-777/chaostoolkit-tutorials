@@ -22,7 +22,8 @@ execute the `chaos run` command:
 Running `chaos run` without any further information will result in you 
 being prompted to specify a `path`. This should be a path to a valid 
 [Chaos Toolkit](http://chaostoolkit.org/) chaos experiment specification, 
-and you don't have one yet...
+and you don't have one yet. By convention that file is often called
+`experiment.json`{{open}}:
 
 <pre class="file" data-filename="/root/experiment.json" data-target="replace">
 {
