@@ -2,7 +2,7 @@
 
 function main () {
 
-    local venv_path="$HOME/.venvs/chaostk/bin/activate"
+    local venv_path="$HOME/.venvs/chaostk/bin/chaos"
 
     echo "Waiting for environment to be fully updated..."
     for i in {1..70}
