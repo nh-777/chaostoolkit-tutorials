@@ -1,7 +1,8 @@
 #!/bin/bash
 
 function main () {
-
+    mkdir project
+    
     local venv_path="$HOME/.venvs/chaostk/bin/chaos"
 
     echo "Waiting for environment to be fully updated..."
