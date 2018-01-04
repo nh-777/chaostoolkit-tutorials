@@ -10,7 +10,7 @@
       {
         "course_id": "simple-experiment",
         "title": "Running your first Chaos Experiment",
-        "description": "Writing and Running a Simple Chaos Experiment"
+        "description": "Writing and running a simple chaos experiment with the Chaos Toolkit"
       }
     ]
   }
