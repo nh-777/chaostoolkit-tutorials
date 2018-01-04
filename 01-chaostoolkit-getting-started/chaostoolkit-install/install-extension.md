@@ -1,10 +1,14 @@
-The Chaos Toolkit uses various extensions to drive chaos experiments against the multiutude of technologies and layers in a typical system. The integrations are typically installed in the same Python environment as the `chaos` command itself.
+The Chaos Toolkit uses various extensions to drive chaos experiments against 
+the multiutude of technologies and layers in a typical system. The integrations 
+are typically installed in the same Python environment as the `chaos` command 
+itself.
 
 To activate a new extension activate your virtual environment:
 
 `source ~/.venvs/chaostk/bin/activate`{{execute}}
 
-Now you can install the [Kubernetes]() integration through its Chaos Toolkit extension using `pip`: 
+Now you can install the [Kubernetes]() integration through its Chaos Toolkit 
+extension using `pip`: 
 
 `pip install -U chaostoolkit-kubernetes`{{execute}}
 
