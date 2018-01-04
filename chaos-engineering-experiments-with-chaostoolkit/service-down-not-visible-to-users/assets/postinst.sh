@@ -6,7 +6,7 @@ function main () {
     local venv_path="$HOME/.venvs/chaostk/bin/activate"
 
     echo "Waiting for environment to be fully updated..."
-    for i in {1..40}
+    for i in {1..50}
     do
         if [ -f $venv_path ]; then
             break
@@ -38,4 +38,4 @@ function main () {
     echo "All set, you can now start your class."
 }
 
-main || exit 1
+main || exit 1
