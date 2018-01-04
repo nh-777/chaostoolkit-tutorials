@@ -19,7 +19,7 @@ execute the `chaos run` command:
 
 `chaos run`{{execute}}
 
-Simply running `chaos run` without any further information will result in you 
+Running `chaos run` without any further information will result in you 
 being prompted to specify a `path`. This should be a path to a valid 
 [Chaos Toolkit](http://chaostoolkit.org/) chaos experiment specification, 
 and you don't have one yet...
