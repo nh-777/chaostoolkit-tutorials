@@ -1,7 +1,6 @@
 #!/bin/bash
 
 function main () {
-    launch.sh
 
     local venv_path="$HOME/.venvs/chaostk/bin/activate"
 
