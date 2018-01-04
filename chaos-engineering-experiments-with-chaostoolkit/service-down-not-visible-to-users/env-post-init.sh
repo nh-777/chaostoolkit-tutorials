@@ -1,1 +1,1 @@
-postinst.sh
+./postinst.sh
