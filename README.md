@@ -11,19 +11,19 @@ having to install anything on your machine until you are ready.
 ## Contribute
 
 Contributors to this project are welcome as this is an open-source effort that
-seeks [discussions][join] and continuous improvement.
+seeks [discussions][join] and continuous improvement from the community.
 
 [join]: https://join.chaostoolkit.org/
 
-### Courses
+### Tutorials
 
-Contributing new courses is done by creating new directories containing
-respecting the layout described by the [Katacoda documentation][katadoc].
+New tutorials can be contributed by creating new directories that
+respect the layout described by the [Katacoda documentation][katadoc].
 
 [katadoc]: https://www.katacoda.com/docs
 
-If you want to add a whole new course, you must create a top-level directory.
-Its name should indicate what users will learn from scenarii in that courses.
+If you want to add a whole new tutorial you create a new top-level directory.
+The name of the directory should indicate what will be learnt from the tutorial and its various scenarios.
 
 The directory name must start with a double-digit indicating the order in which
 the course should be displayed on the Katacoda portal.
