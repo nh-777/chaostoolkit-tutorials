@@ -22,7 +22,7 @@
         },
         "assets": {
             "host01": [
-                {"file": "postinst.sh", "target": "/root"}
+                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
             ]
         }
     },
