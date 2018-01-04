@@ -16,6 +16,10 @@ class:
 
 `cd chaostoolkit-samples/service-down-not-visible-to-users`{{execute}}
 
+Next, activate the Python virtual environment so the `chaos` command is found.
+
+`source ~/.venvs/chaostk/bin/activate`{{execute}}
+
 Now, we can deploy our application and setup the service where to connect to
 our application:
 
