@@ -1,11 +1,9 @@
-# chaostoolkit-trainings
+# Welcome to the Chaos Toolkit Tutorials!
 
-Welcome!
-
-This repository contains a set of trainings to get started about Chaos Toolkit
+This repository contains a set of tutorials to get started about Chaos Toolkit
 and learn how to come up with your own Chaos Engineering experiments.
 
-The trainings can be followed live, and freely, on [Katacoda][katacoda] without
+The tutorials can be followed live, and freely, on [Katacoda][katacoda] without
 having to install anything on your machine until you are ready.
 
 [katacoda]: https://www.katacoda.com/chaostoolkit/
