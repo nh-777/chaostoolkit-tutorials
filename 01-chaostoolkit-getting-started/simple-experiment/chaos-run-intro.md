@@ -24,7 +24,7 @@ being prompted to specify a `path`. This should be a path to a valid
 [Chaos Toolkit](http://chaostoolkit.org/) chaos experiment specification, 
 and you don't have one yet...
 
-<pre class="file" data-filename="experiment.json" data-target="replace">
+<pre class="file" data-filename="/root/experiment.json" data-target="replace">
 {
     "title": "boom"
 }
