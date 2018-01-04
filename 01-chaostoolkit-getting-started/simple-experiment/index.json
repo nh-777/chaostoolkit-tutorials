@@ -18,7 +18,8 @@
         },
         "assets": {
             "host01": [
-                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
+                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"},
+                {"file": "experiment.json", "target": "/root"}
             ]
         }
     },
@@ -31,6 +32,6 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "coreos"
+        "imageid": "ubuntu"
     }
 }
