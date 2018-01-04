@@ -5,7 +5,7 @@
     "time": "5 minutes",
     "details": {
         "steps": [{
-            "title": "Introducing the `chaos run` command",
+            "title": "Introducing the 'chaos run' command",
             "text": "chaos-run-intro.md"
         }],
         "intro": {
