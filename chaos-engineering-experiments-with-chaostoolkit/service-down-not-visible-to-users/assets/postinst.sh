@@ -19,14 +19,11 @@ function main () {
             "Sorry, but you will have to refresh this page and try again :/"
         return 1
     fi
-
     echo "Environment is now ready"
 
     source ~/.venvs/chaostk/bin/activate
     git clone --depth 1 https://github.com/chaostoolkit/chaostoolkit-samples.git
-    cd chaostoolkit-samples/service-down-not-visible-to-users
     echo "All set, you can now start your class."
-    ls
 }
 
 main || exit 1
