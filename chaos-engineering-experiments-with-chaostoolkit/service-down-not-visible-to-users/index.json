@@ -22,7 +22,8 @@
         },
         "assets": {
             "host01": [
-                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
+                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"},
+                {"file": "get-consumer-service-address.sh", "target": "/root", "chmod": "a+x"}
             ]
         }
     },
