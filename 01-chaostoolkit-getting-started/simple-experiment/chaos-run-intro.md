@@ -24,8 +24,6 @@ being prompted to specify a `path`. This should be a path to a valid
 [Chaos Toolkit](http://chaostoolkit.org/) chaos experiment specification, 
 and you don't have one yet...
 
-`something useful`{{copy}}
-
 In the next step of this scenario you'll write your first, very simple chaos 
 engineering experiment...
 
