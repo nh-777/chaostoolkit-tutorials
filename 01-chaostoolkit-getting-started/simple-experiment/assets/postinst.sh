@@ -22,13 +22,6 @@ function main () {
     fi
     echo "Environment is now ready"
 
-    local samples_git="https://github.com/chaostoolkit/chaostoolkit-samples.git"
-    echo "Cloning class samples from ${samples_git}"
-    if ! git clone --quiet --depth 1 $samples_git; then
-        echo "failed to clone ${samples_git}"
-        return 1
-    fi
-
     echo "All set, you can now start your class."
 }
 
