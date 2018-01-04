@@ -6,6 +6,11 @@
         "course_id": "chaostoolkit-install",
         "title": "Install the Chaos Toolkit",
         "description": "Install the Chaos Toolkit and Extensions"
+      },
+      {
+        "course_id": "simple-experiment",
+        "title": "Running your first Chaos Experiment",
+        "description": "Writing and Running a Simple Chaos Experiment"
       }
     ]
   }
