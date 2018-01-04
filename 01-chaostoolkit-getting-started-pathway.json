@@ -1,0 +1,11 @@
+{
+    "title": "Chaos Toolkit Getting Started",
+    "description": "Learn the basics of the Chaos Toolkit",
+    "courses": [
+      {
+        "course_id": "chaostoolkit-install",
+        "title": "Install the Chaos Toolkit",
+        "description": "Install the Chaos Toolkit and Extensions"
+      }
+    ]
+  }
