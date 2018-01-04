@@ -23,7 +23,6 @@
         }
     },
     "files": [
-        "./experiment.json"
     ],
     "environment": {
         "uilayout": "editor-terminal",
