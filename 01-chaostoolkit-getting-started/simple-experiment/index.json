@@ -23,10 +23,11 @@
         }
     },
     "files": [
-        "experiment.json"
+        "/root/experiment.json"
     ],
     "environment": {
         "uilayout": "editor-terminal",
+        "uisettings": "javascript",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
