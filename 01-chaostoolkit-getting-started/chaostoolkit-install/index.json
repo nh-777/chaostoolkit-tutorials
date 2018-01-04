@@ -1,16 +1,16 @@
 {
-    "title": "Install the Chaos Toolkit",
+    "title": "Setting up the Chaos Toolkit",
     "description": "Install the Chaos Toolkit CLI and Extensions",
     "difficulty": "beginner",
     "time": "5 minutes",
     "details": {
         "steps": [{
             "title": "Install the Chaos Toolkit CLI",
-            "text": "cli.md"
+            "text": "setup-cli.md"
         },
         {
             "title": "Install Chaos Toolkit Extensions",
-            "text": "extensions.md"
+            "text": "install-extension.md"
         }],
         "intro": {
             "text": "intro.md",
