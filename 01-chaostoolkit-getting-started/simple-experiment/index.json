@@ -18,8 +18,7 @@
         },
         "assets": {
             "host01": [
-                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"},
-                {"file": "experiment.json", "target": "/root"}
+                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
             ]
         }
     },
