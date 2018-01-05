@@ -9,8 +9,16 @@
             "text": "chaos-run-intro.md"
         },
         {
+            "title": "Creating your service",
+            "text": "creating-a-service.md"
+        },
+        {
             "title": "Writing your first, simple chaos experiment",
             "text": "write-simple-experiment.md"
+        },
+        {
+            "title": "Add a Steady State Hypothesis to your Experiment",
+            "text": "add-steady-state-hypothesis.md"
         }],
         "intro": {
             "text": "intro.md",
