@@ -35,7 +35,8 @@
         }
     },
     "files": [
-        "experiment.json"
+        "experiment.json",
+        "service.py"
     ],
     "environment": {
         "uilayout": "editor-terminal",
