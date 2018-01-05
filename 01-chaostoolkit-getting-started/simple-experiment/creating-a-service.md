@@ -56,4 +56,8 @@ Add this code into a file called `service.py` and then check the service runs by
 
 `python3 service.py`{{execute}}
 
+You can now click on the `Local Web Browser` tab next to your terminal to hit your new service.
+
+***Before moving on, it's worth killing this instance of your service by hitting `CNTRL-C` a few times in the terminal window until it returns to the command prompt.***
+
 Now that you have a service, it's time to beign to write your experiment to look for any weaknesses in your design...
