@@ -54,6 +54,6 @@ if __name__ == '__main__':
 
 Add this code into a file called `service.py` and then check the service runs by executing:
 
-`python service.py`{{execute}}
+`python3 service.py`{{execute}}
 
 Now that you have a service, it's time to beign to write your experiment to look for any weaknesses in your design...
