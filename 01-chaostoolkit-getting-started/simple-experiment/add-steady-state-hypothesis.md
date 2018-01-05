@@ -22,6 +22,15 @@ For your simple experiment, the Steady State Hypothesis is very simple indeed in
                         "path": "./exchange.dat"
                     }
                 }
+            },
+            {
+                "type": "probe",
+                "name": "service-is-unavailable",
+                "provider": {
+                    "type": "http",
+                    "tolerance": [200, 503],
+                    "url": "http://localhost:8080/"
+                }
             }
         ]
     },

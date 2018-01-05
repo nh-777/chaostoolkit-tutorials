@@ -21,15 +21,6 @@ Your method for the experiment you're creating will:
                     "dst": "./exchange.dat.old"
                 }
             }
-        },
-        {
-            "type": "probe",
-            "name": "service-is-unavailable",
-            "provider": {
-                "type": "http",
-                "expected_status": 503,
-                "url": "http://localhost:8080/"
-            }
         }
     ]
 }
