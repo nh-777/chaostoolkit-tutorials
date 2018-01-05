@@ -1,6 +1,5 @@
 {
-    "title": "Discovering and Overcoming a Cascading Failure in Spring Boot services running in Kubernetes",
-    "description": "A chaos experiment is executed that discovers a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.","courses": [
+    "title": "Chaos Toolkit Tutorials working Kubernetes and Spring Boot microservices.","courses": [
       {
         "course_id": "service-down-not-visible-to-users",
         "title": "Discover and Overcome a Cascading Failure",
