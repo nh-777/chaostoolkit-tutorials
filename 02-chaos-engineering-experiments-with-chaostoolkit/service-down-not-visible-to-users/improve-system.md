@@ -2,7 +2,7 @@ Once again, chaos engineering has highlighted a weakness in the system. In the c
 
 One way of overcoming this weakness is to implement a circuit breaker in the `consumer`  so that in the event of the downstream `provider` service not responding there is a fallback strategy. In this case the `consumer` will return a limited response, but it will be the required `200` HTTP response code, rather than a cascading failure `500` response.
 
-You can see the code for the improved `consumer` [here]().
+You can see the code for the improved `consumer` [here](https://github.com/chaostoolkit/chaostoolkit-samples/tree/master/service-down-not-visible-to-users/03-after/simple-spring-boot-feign-direct-consumer).
 
 To enable the improved services you first need to take down the existing ones by executing the following command:
 

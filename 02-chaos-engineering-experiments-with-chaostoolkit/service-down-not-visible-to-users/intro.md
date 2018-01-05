@@ -1,7 +1,3 @@
-The [Chaos Toolkit](http://chaostoolkit.org/) is a free, open source project
-that enables you to create and apply Chaos Experiments to various types of
-infrastructure, platforms and applications.
+This tutorial will build a simple microservice-based system using Kubernetes and then show how you can explore that system using Chaos Engineering to discover and overcome a weakness in the form of a cascading failure.
 
-This training will take you through the setup of a Python environment deployed
-with the `chaos` command. It will also teach you how extensions are installed
-in that environment.
+All of the sample code for this tutorial can be found [here](https://github.com/chaostoolkit/chaostoolkit-samples/tree/master/service-down-not-visible-to-users).
