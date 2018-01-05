@@ -22,7 +22,7 @@ Kubernetes may take a little while to get everything initialised and settled, so
 
 `kubectl get all`{{execute}}
 
-Once the services are running, you can retrieve the public endpoint to call
+Once the services are running you can retrieve the public endpoint to call
 the consumer service:
 
 `/root/get-consumer-service-address.sh`{{execute}}
@@ -31,7 +31,7 @@ Take the address reported back by the previous command and execute a `curl` comm
 
 `curl <your service address>`
 
-***NOTE:*** **It may take alittle while for the curl command to respond successfully as Kubernetes is creating all the services and pods, and then starting up the Spring Boot services that make up the consumer and the provider.**
+***NOTE:*** **It may take a little while for the curl command to respond successfully as Kubernetes is creating all the services and pods and then starting up the Spring Boot services that make up the consumer and the provider. Until the service is started you are likely to get a "Connection refused" message from curl.**
 
 To check that the `consumer` and the `provider` are wired together and talking execute another `curl` command:
 

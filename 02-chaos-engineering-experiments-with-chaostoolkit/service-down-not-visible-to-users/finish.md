@@ -1,3 +1,1 @@
-Congratulations! You now have installed the Chaos Toolkit in a Python virtual
-environment and you can start deploying new extensions to support your
-Chaos Engineering experiments.
+Congratulations! You have now executed your firsf chaos experiment against a kubernetes cluster containing a couple of Spring Boot microservices. You've also seen how an experiment can discover a weakness and then, when that weakness is overcome, how you can then continuously run your automated chaos experiment to prove that the weakness does not arise again.
