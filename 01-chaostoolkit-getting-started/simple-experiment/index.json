@@ -13,6 +13,9 @@
             "courseData": "env-init.sh",
             "code": "env-post-init.sh"
         },
+        "simple-experiment": {
+            "text": "write-simple-experiment.md"
+        },
         "finish": {
             "text": "finish.md"
         },
