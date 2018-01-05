@@ -1,4 +1,4 @@
-Great work again! You have now seen how to create a simple Chaos Experiment that 
+Great work again! You have now seen how to create, execute and learn from a simple Chaos Experiment that 
 can be executed using the [Chaos Toolkit](http://chaostoolkit.org/). 
 
 You've also seen the output from running your experiment and learnt how to 

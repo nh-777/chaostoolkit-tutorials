@@ -27,6 +27,10 @@
         {
             "title": "Execute your Experiment",
             "text": "execute-experiment.md"
+        },
+        {
+            "title": "Learning from your Experiment",
+            "text": "learn-improve.md"
         }],
         "intro": {
             "text": "intro.md",
