@@ -7,14 +7,15 @@
         "steps": [{
             "title": "Introducing the 'chaos run' command",
             "text": "chaos-run-intro.md"
+        },
+        {
+            "title": "Writing your first, simple chaos experiment",
+            "text": "write-simple-experiment.md"
         }],
         "intro": {
             "text": "intro.md",
             "courseData": "env-init.sh",
             "code": "env-post-init.sh"
-        },
-        "simple-experiment": {
-            "text": "write-simple-experiment.md"
         },
         "finish": {
             "text": "finish.md"
