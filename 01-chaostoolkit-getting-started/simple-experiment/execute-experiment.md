@@ -4,7 +4,7 @@ Before running your experiment you need to ensure that your service is running. 
 
 `python3 service.py`{{execute}}
 
-One the service is running, navigate back to the original terminal window and run the following command to execute your Chaos Toolkit experiment:
+Once the service is running, navigate back to the original terminal window and run the following command to execute your Chaos Toolkit experiment:
 
 `chaos run experiment.json`{{execute}}
 
