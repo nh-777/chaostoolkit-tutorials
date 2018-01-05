@@ -31,6 +31,8 @@ Take the address reported back by the previous command and execute a `curl` comm
 
 `curl <your service address>`
 
+***NOTE:*** **It may take alittle while for the curl command to respond successfully as Kubernetes is creating all the services and pods, and then starting up the Spring Boot services that make up the consumer and the provider.**
+
 To check that the `consumer` and the `provider` are wired together and talking execute another `curl` command:
 
 `curl <your service address>/invokeConsumedMicroservice`
@@ -41,4 +43,4 @@ You should see a response similar to:
 com.russmiles.antifragilesoftware.SimpleBootMicroserviceProvider$$EnhancerBySpringCGLIB$$a4df4aa7@683c2b43 instance saying: Hello Microservice World
 ```
 
-The initial system is up and running! Now it's time to explore it's weaknesses with some chaos...
+With both endpoints returning successfully the initial system is up and running! Now it's time to explore its weaknesses with some chaos...

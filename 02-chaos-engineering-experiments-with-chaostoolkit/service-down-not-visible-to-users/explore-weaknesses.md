@@ -2,7 +2,7 @@ In the previous step you created a system comprising two Spring Boot microservic
 
 On such common weakness is a Cascading Failure. This is where the failure of a downstream service can catastrophically affect an upstream service, and even impact the experience your users get when using the system!
 
-To explore this type of weakness you already have an experiment that looks for it in your two-service system:
+To explore this type of weakness you already have an experiment that looks for it in your two-service system in the `experiment.json` file:
 
 ```
 {
@@ -63,17 +63,19 @@ The key feature of this experiment is the second probe in the `steady-state-hypo
 
 The experiment's method simply kills the `provider` service so that it is unreachable. Under these conditions you _hope_ the consumer will be able to continue functioning, if perhaps in a limited manner. To _prove_ this, you can run the experiment.
 
-Before you run the experiment though you need to make sure the `consumer-service-must-still-respond` probe in the `steady-state-hypothesis` block is pointing at the correct URL for your `consumer` service. You saw how to get this URL before using `get-consumer-service-address.sh` command:
+Before you run the experiment though you need to make sure the `consumer-service-must-still-respond` probe in the `steady-state-hypothesis` block is pointing at the correct URL for your `consumer` service. You saw how to get the correct URL endpoint for the `consumer` service in your system in the previous step by using `get-consumer-service-address.sh`:
 
 `/root/get-consumer-service-address.sh`{{execute}}
 
-Take the URL endpoint reported by this command and edit the `experiment.json` in the current directory so that the `consumer-service-must-still-respond` probe points to the correct URL for your `consumer` service. Use `vi` or an other editor from the terminal to complete this operation.
+Take the URL endpoint reported by this command and edit the `experiment.json` in the current directory so that the `consumer-service-must-still-respond` probe points to the correct URL for your `consumer` service. Use `vi` or an other editor from the terminal to complete this operation, for example by using the following command:
 
-Now that you've pointed the experiment against your service, you can activate the Python virtual environment so the `chaos` command is available:
+`vi experiment.json`{{execute}}
+
+Now that you've pointed the experiment at your `consumer` service's endpoint, you can activate the Python virtual environment so that the `chaos` command is available to run your experiment:
 
 `source ~/.venvs/chaostk/bin/activate`{{execute}}
 
-Then finally you can run your experiment:
+Finally you can run your chaos experiment:
 
 `chaos run experiment.json`{{execute}}
 
