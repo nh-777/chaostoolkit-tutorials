@@ -32,9 +32,7 @@
     ],
     "environment": {
         "uilayout": "editor-terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
-        "showdashboard": true,
-        "dashboards": [{"name":"Local Web Browser","port":31126}]
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
     "backend": {
         "port": 8080,
