@@ -19,6 +19,10 @@
         {
             "title": "Add a Steady State Hypothesis to your Experiment",
             "text": "add-steady-state-hypothesis.md"
+        },
+        {
+            "title": "Add a Method to your Experiment",
+            "text": "add-method.md"
         }],
         "intro": {
             "text": "intro.md",
