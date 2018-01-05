@@ -2,7 +2,7 @@
     "title": "Running your first Chaos Experiment",
     "description": "Writing and Running a Simple Chaos Experiment",
     "difficulty": "beginner",
-    "time": "5 minutes",
+    "time": "7 minutes",
     "details": {
         "steps": [{
             "title": "Introducing the 'chaos run' command",
@@ -23,6 +23,10 @@
         {
             "title": "Add a Method to your Experiment",
             "text": "add-method.md"
+        },
+        {
+            "title": "Execute your Experiment",
+            "text": "execute-experiment.md"
         }],
         "intro": {
             "text": "intro.md",
