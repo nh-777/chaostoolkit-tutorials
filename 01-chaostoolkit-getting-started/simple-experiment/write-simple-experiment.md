@@ -5,13 +5,12 @@ and implementation-agnostic JSON format.
 
 Experiments start with a `title`, a `description`, and some optional `tags` 
 that can help when you have a catalogue of experiments to work with. 
-Your experiment here is simply going to look for the presence of a file on your 
-local system and, if it's there, declare that all is ok:
+Your experiment here is simply going to ensure that the service should not break if a file is removed, and instead simply try again until the file comes back:
 
 <pre class="file" data-filename="experiment.json" data-target="replace">
 {
-    "title": "Is all ok after a particular file is deleted?",
-    "description": "The system's steady-state-hypothesis should be within tolerances even when a particular file is deleted",
+    "title": "Does our service tolerate the loss of its exchange file?",
+    "description": "Our service reads data from an exchange file, can it support that file disappearing?",
     "tags": [
         "tutorial",
         "filesystem"

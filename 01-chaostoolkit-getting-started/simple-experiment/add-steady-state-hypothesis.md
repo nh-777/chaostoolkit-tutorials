@@ -8,16 +8,27 @@ TBD: Our hypothesis is that the service should not break but simply try again un
 
 Our experiment should try that hypothesis to see where our system stands.
 
-For your simple experiment, the Steady State Hypothesis is very simple indeed in that it merely asks ***"The file can be present, or not, and that's ok".
+For your simple experiment, the Steady State Hypothesis is very simple indeed in that it merely asks that a file is present:
 
-<pre class="file" data-filename="experiment.json" data-target="replace">
-{
-    "title": "Is all ok after a particular file is deleted?",
-    "description": "The system's steady-state-hypothesis should be within tolerances even when a particular file is deleted",
-    "tags": [
-        "tutorial",
-        "filesystem"
-    ],
+<pre class="file" data-filename="experiment.json" data-target="append">
+    "steady-state-hypothesis": {
+        "title": "The exchange file must exist",
+        "probes": [
+            {
+                "type": "probe",
+                "name": "exchange-file-exists",
+                "tolerance": true,
+                "provider": {
+                    "type": "python",
+                    "module": "os.path",
+                    "func": "exists",
+                    "arguments": {
+                        "path": "./exchange.dat"
+                    }
+                }
+            }
+        ]
+    },
 </pre>
 
 The Chaos Toolkit uses the Steady State Hypothesis for two purposes. It is used as a check before an experiment is run that the target system is in a recognised ***normal*** state. The Steady State Hypothesis is also used as the template for comparison of the state of your system ***after*** the experiment has been run, forming the results provided by the experimental report.
