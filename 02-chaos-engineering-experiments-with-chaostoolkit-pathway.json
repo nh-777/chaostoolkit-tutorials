@@ -3,7 +3,7 @@
     "description": "A chaos experiment is executed that discovers a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.","courses": [
       {
         "course_id": "service-down-not-visible-to-users",
-        "title": "Discovering and Overcoming a Cascading Failure in Spring Boot services running in Kubernetes",
+        "title": "Discover and Overcome a Cascading Failure",
         "description": "Use the Chaos Toolkit to discover a cascading failure weakness to then learn from this and apply a circuit breaker."
       }
     ]
