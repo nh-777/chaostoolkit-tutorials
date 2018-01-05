@@ -1,12 +1,16 @@
 {
-    "title": "Service Down Not Visible To Users",
-    "description": "Where an experiment is executes that highlights a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.",
+    "title": "Discovering and Overcoming a Cascading Failure in Spring Boot services running in Kubernetes",
+    "description": "A chaos experiment is executed that discovers a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.",
     "difficulty": "beginner",
     "time": "15 minutes",
     "details": {
         "steps": [{
-            "title": "Explore our system weakness",
-            "text": "before.md"
+            "title": "Setup the services in Kubernetes",
+            "text": "setup-services.md"
+        },
+        {
+            "title": "Explore the System's Weaknesses",
+            "text": "explore-weaknesses.md"
         },
         {
             "title": "Respond to the weakness",
