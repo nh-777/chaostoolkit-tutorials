@@ -1,11 +1,10 @@
 {
-    "title": "Chaos Engineering Experiments with the Chaos Toolkit",
-    "description": "Learn from your System with Chaos Engineering experiments and the Chaos Toolkit",
-    "courses": [
+    "title": "Discovering and Overcoming a Cascading Failure in Spring Boot services running in Kubernetes",
+    "description": "A chaos experiment is executed that discovers a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness.","courses": [
       {
         "course_id": "service-down-not-visible-to-users",
-        "title": "Service Down Not Visible To Users",
-        "description": "Where an experiment is executes that highlights a weakness and this is then learned from and a circuit breaker is applied to overcome this discovered weakness."
+        "title": "Discovering and Overcoming a Cascading Failure in Spring Boot services running in Kubernetes",
+        "description": "Use the Chaos Toolkit to discover a cascading failure weakness to then learn from this and apply a circuit breaker."
       }
     ]
   }
