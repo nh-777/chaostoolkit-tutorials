@@ -4,10 +4,6 @@ The [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineerin
 
 One way to think of this is that the Steady State describes what ***normal*** might look like vfor your system, within specieid tolerances. While a complete discussion of what would make a good measurement and tolerances to form part of a great Steady State Hypothesis for your system is beyond the scope of this tutorial, it's enough to declare that it is the collection of measurements you can make that declares what **ok** might look like for your system, even under extreme conditions.
 
-TBD: Our hypothesis is that the service should not break but simply try again until the file comes back.
-
-Our experiment should try that hypothesis to see where our system stands.
-
 For your simple experiment, the Steady State Hypothesis is very simple indeed in that it merely asks that a file is present:
 
 <pre class="file" data-filename="experiment.json" data-target="append">
