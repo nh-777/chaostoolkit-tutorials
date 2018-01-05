@@ -48,12 +48,12 @@
     ],
     "environment": {
         "uilayout": "editor-terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+        "showdashboard": true,
+        "dashboards": [{"name":"Local Web Browser","port":8080}]
     },
     "backend": {
         "imageid": "ubuntu",
-        "port":8080,
-        "showdashboard": true,
-        "dashboards": [{"name":"Local Web Browser","port":8080}]
+        "port":8080
     }
 }
