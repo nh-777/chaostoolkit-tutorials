@@ -57,7 +57,7 @@
         "dashboards": [{"name":"Local Web Browser","port":8080}]
     },
     "backend": {
-        "imageid": "ubuntu",
+        "imageid": "python",
         "port":8080
     }
 }
