@@ -1,2 +1,2 @@
-sleep 2s
-/postinst.sh
+source $HOME/.bashrc
+clear
