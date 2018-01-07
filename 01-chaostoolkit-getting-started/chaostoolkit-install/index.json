@@ -13,16 +13,10 @@
             "text": "install-extension.md"
         }],
         "intro": {
-            "text": "intro.md",
-            "code": "env-post-init.sh"
+            "text": "intro.md"
         },
         "finish": {
             "text": "finish.md"
-        },
-        "assets": {
-            "host01": [
-                {"file": "postinst.sh", "target": "/root", "chmod": "a+x"}
-            ]
         }
     },
     "environment": {
