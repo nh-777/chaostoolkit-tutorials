@@ -1,0 +1,3 @@
+You have now seen how to use the `chaos discover` command to explore what you might like to do with your target environment.
+
+It's now time to take what's been found by the `chaos discover` command and use that to create a new chaos experiment simply and easily...
