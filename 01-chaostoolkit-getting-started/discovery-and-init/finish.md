@@ -1,3 +1,3 @@
-You have now seen how to use the `chaos discover` command to explore what you might like to do with your target environment.
+You have now seen how to use the `chaos discover` and `chaos init` commands to explore what you might like to do with the probes and actions on your target environment and used that information to simply and easily create a chaos engineering experiment.
 
-It's now time to take what's been found by the `chaos discover` command and use that to create a new chaos experiment simply and easily...
+By using `chaos discover` and `chaos init` you can now create a catalogue of experiments to explore all your system's weaknesses and build confidence in those weaknesses being addressed by running your new automated chaos experiments continuously.
