@@ -13,9 +13,9 @@
         "description": "Writing and running a simple chaos experiment with the Chaos Toolkit"
       },
       {
-        "course_id": "discovery",
-        "title": "Using Discovery to Bootstrap your Experiments",
-        "description": "Using the Chaos Toolkit's discovery feature can be used to explore your environment"
+        "course_id": "discovery-and-init",
+        "title": "Using Discover and Init to Bootstrap your Experiments",
+        "description": "Using the Chaos Toolkit's discovery and initialisation features to explore your environment and to start to create your experiments"
       }
     ]
   }

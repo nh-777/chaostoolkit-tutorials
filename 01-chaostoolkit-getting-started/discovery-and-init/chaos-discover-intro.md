@@ -31,4 +31,7 @@ When you execute `chaos discover chaostoolkit-kubernetes` you should see an outp
 ```
 
 Note the `Discovery report saved in ./discovery.json` message. Depending on the target environment the `chaos discover` command can result in a large amount of information about what can be done or probed in your chaos experiments. In the next tutorial you will see how you can use `chaos discover` in combination with `chaos init` to build your own Chaos Toolkit experiments quickly.
+
+With the output of the `chaos discover` command to hand, you can now take what's been discovered and use that to create a new chaos experiment simply and easily...
+
  
