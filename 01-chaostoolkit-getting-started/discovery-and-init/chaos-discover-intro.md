@@ -14,8 +14,6 @@ execute the `chaos discover` command. The `chaos discover` command requires a mi
 
 `chaos discover chaostoolkit-kubernetes`{{execute}}
 
-***NOTE:*** You will see the warning `Could not locate the default kubeconfig file`, this is because the current tutorial does not have a cluster already configured as we don't need it for this tutorial. To turn off this message you could use the `--no-system-info`
-
 You can specify other environments than Kubernetes for chaos toolkit to discover. For example, to discover what's available from your Cloud Foundry environment you would use  `chaos discover chaostoolkit-cloudfoundry`.
 
 ***NOTE:*** The `chaos discover chaostoolkit-kubernetes` command uses the default configuration that has been configured for your local `kubectl` command. 

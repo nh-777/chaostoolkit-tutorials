@@ -11,6 +11,14 @@
         {
             "title": "Getting access to ChaosIQ",
             "text": "chaosiq-access.md"
+        },
+        {
+            "title": "Using ChaosIQ to discover experiments",
+            "text": "chaosiq-discover.md"
+        },
+        {
+            "title": "Using Init to select ChaosIQ experiments",
+            "text": "chaosiq-init.md"
         }],
         "intro": {
             "text": "intro.md",
