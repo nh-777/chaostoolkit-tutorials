@@ -1,0 +1,38 @@
+{
+    "title": "ChaosIQ.io Integration",
+    "description": "Working with ChaosIQ for chaos engineering insights",
+    "difficulty": "beginner",
+    "time": "3 minutes",
+    "details": {
+        "steps": [{
+            "title": "Installing ChaosIQ",
+            "text": "chaosiq-install.md"
+        },
+        {
+            "title": "Getting access to ChaosIQ",
+            "text": "chaosiq-access.md"
+        }],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "env-init.sh",
+            "code": "env-post-init.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "experiment.json",
+        "service.py"
+    ],
+    "environment": {
+        "uilayout": "editor-terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+        "showdashboard": true,
+        "dashboards": [{"name":"Local Web Browser","port":8080}]
+    },
+    "backend": {
+        "imageid": "kubernetes-python",
+        "port":8080
+    }
+}

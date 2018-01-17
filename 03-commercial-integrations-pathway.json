@@ -1,0 +1,11 @@
+{
+    "title": "Commercial Integrations",
+    "description": "Learn how Chaos Toolkit integrates with third-party, and commercial, integrations.",
+    "courses": [
+      {
+        "course_id": "chaosiq",
+        "title": "ChaosIQ.io Integration",
+        "description": "Working with ChaosIQ for chaos insights"
+      }
+    ]
+  }
