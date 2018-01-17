@@ -1,6 +1,6 @@
 {
     "title": "Using Discover and Init to Bootstrap your Experiments",
-    "description": "Using the Chaos Toolkit's discovery and initialisation features to explore your environment and to start to create your experiments",
+    "description": "Using the 'chaos discover' and 'chaos init'",
     "difficulty": "beginner",
     "time": "5 minutes",
     "details": {
