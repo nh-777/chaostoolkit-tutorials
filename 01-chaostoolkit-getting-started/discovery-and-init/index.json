@@ -1,6 +1,6 @@
 {
-    "title": "Using Discover and Init to Bootstrap your Experiments",
-    "description": "Using the 'chaos discover' and 'chaos init'",
+    "title": "Discover and Initialise Your Experiments",
+    "description": "Using the 'chaos discover' and 'chaos init' commands to explore your environment and to bootstrap your experiments",
     "difficulty": "beginner",
     "time": "5 minutes",
     "details": {

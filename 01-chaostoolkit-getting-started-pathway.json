@@ -14,8 +14,8 @@
       },
       {
         "course_id": "discovery-and-init",
-        "title": "Using Discover and Init to Bootstrap your Experiments",
-        "description": "Using the Chaos Toolkit's discovery and initialisation features to explore your environment and to start to create your experiments"
+        "title": "Discover and Initialise Your Experiments",
+        "description": "Using the 'chaos discover' and 'chaos init' commands to explore your environment and to bootstrap your experiments"
       }
     ]
   }
