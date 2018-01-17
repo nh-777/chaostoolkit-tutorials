@@ -14,6 +14,8 @@ execute the `chaos discover` command. The `chaos discover` command requires a mi
 
 `chaos discover chaostoolkit-kubernetes`{{execute}}
 
+***NOTE:*** You will see the warning `Could not locate the default kubeconfig file`, this is because the current tutorial does not have a cluster already configured as we don't need it for this tutorial. To turn off this message you could use the `--no-system-info`
+
 You can specify other environments than Kubernetes for chaos toolkit to discover. For example, to discover what's available from your Cloud Foundry environment you would use  `chaos discover chaostoolkit-cloudfoundry`.
 
 ***NOTE:*** The `chaos discover chaostoolkit-kubernetes` command uses the default configuration that has been configured for your local `kubectl` command. 
@@ -33,5 +35,3 @@ When you execute `chaos discover chaostoolkit-kubernetes` you should see an outp
 Note the `Discovery report saved in ./discovery.json` message. Depending on the target environment the `chaos discover` command can result in a large amount of information about what can be done or probed in your chaos experiments. In the next tutorial you will see how you can use `chaos discover` in combination with `chaos init` to build your own Chaos Toolkit experiments quickly.
 
 With the output of the `chaos discover` command to hand, you can now take what's been discovered and use that to create a new chaos experiment simply and easily...
-
- 

@@ -8,5 +8,16 @@ To create your experiment enter:
 
 `chaos init`{{execute}}
 
-You will now be guided through a set of steps to identify your experiment and to select probes and actions that you can add to your experiment.
+You will now be guided through a set of steps to identify your experiment and to select probes and actions that you can add to your experiment. The first question will be to enter what title you want to use for your experiment:
+
+```
+[2018-01-17 13:49:59 INFO] Let's build a new experiment
+Experiment's title: 
+```
+
+Enter a meaningful name of what your experiment might be looking to discover in your system as a weakness, such as:
+
+```
+Experiment's title: How is availability impacted when a service is destroyed
+```
 
