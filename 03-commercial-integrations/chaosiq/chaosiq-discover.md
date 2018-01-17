@@ -1,8 +1,8 @@
 [ChaosIQ](http://www.chaosiq.io/) extends the [Chaos Toolkit](http://chaostoolkit.org/) so that the `chaos discover` command can also suggest full experiments based on what has been discovered from your target system. 
 
-Now that you have installed `chaosiq`, and set it up with a token, you can use `chaos discover` to see what experiments ChaosIQ recommends to provide insights into potential weaknesses in your own target system.
+Now that you have installed `chaosiq`, and set it up with a token, you can use `chaos discover` to see what experiments [ChaosIQ](http://www.chaosiq.io/) recommends to provide insights into potential weaknesses in your own target system.
 
-ChaosIQ integrates itself with the `chaos discover` command, so execute that now and you should see the new ChaosIQ-added information for your `chaos discover` command. To see this execute the `chaos discover` command:
+[ChaosIQ](http://www.chaosiq.io/) integrates itself with the `chaos discover` command, so execute that now and you should see the new ChaosIQ-added information for your `chaos discover` command. To see this execute the `chaos discover` command:
 
 `chaos discover chaostoolkit-kubernetes`{{execute}}
 
@@ -21,8 +21,10 @@ You should then see something like the following:
 [2018-01-17 16:25:11 INFO] Discovery report saved in ./discovery.json
 ```
 
-As usual the Chaos Toolkit has grabbed its kubernetes extension and then run its usual `chaos discover` process. There is however more information being provided by ChaosIQ, as shown nby the line that states `[2018-01-17 16:25:11 INFO] 1 experiment suggestions were found`.
+As usual the Chaos Toolkit has grabbed its kubernetes extension and then run its usual `chaos discover` process. There is however more information being provided by [ChaosIQ](http://www.chaosiq.io/), as shown by the line that states:
 
-ChaosIQ has added extra information to the `./discovery.json` file in the form of a collection, in this case just 1, of experiments that it suggests based on the system you are working with.
+`[2018-01-17 16:25:11 INFO] 1 experiment suggestions were found`
 
-With more discovered and suggested, ChaosIQ can then extend the Chaos Toolkit further so that you can use these suggestions when you run the `chaos init` command...
+[ChaosIQ](http://www.chaosiq.io/) has added extra information to the `./discovery.json` file in the form of a collection, in this case just 1, of experiments that it suggests based on the system you are working with.
+
+With more discovered and suggested, [ChaosIQ](http://www.chaosiq.io/) can then extend the Chaos Toolkit further so that you can use these suggestions when you run the `chaos init` command...
