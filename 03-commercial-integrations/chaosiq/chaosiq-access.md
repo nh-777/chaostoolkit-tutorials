@@ -8,9 +8,9 @@ Once you have received a token you need to generate a configuration file to plac
 
 This command will create a `config` file in `~/.chaosiq` which is ready to take your new ChaosIQ token. Open that file and you will see the following:
 
-```
+<pre>
 auth:
   token: <YOUR TOKEN>
-```
+</pre>
 
 Replace `<YOUR TOKEN>` with the token supplied by ChaosIQ and save your `config` file. You're now ready to use ChaosIQ...
