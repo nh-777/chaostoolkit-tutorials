@@ -2,7 +2,7 @@
     "title": "ChaosIQ.io Integration",
     "description": "Working with ChaosIQ for chaos engineering insights",
     "difficulty": "beginner",
-    "time": "3 minutes",
+    "time": "5 minutes",
     "details": {
         "steps": [{
             "title": "Installing ChaosIQ",
