@@ -1,5 +1,5 @@
 {
-    "title": "Chaos Toolkit Tutorials working with Kubernetes and Spring Boot microservices.","courses": [
+    "title": "Working with Kubernetes and Spring Boot microservices.","courses": [
       {
         "course_id": "service-down-not-visible-to-users",
         "title": "Discover and Overcome a Cascading Failure",
