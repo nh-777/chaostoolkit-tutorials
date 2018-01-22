@@ -2,17 +2,19 @@ To get access to [ChaosIQ](http://www.chaosiq.io/) you will need a token. You ca
 
 ***NOTE:*** There are plans to make it possible to request and manage [ChaosIQ](http://www.chaosiq.io/) token using the `chaosiq` command, however while the system is in private alpha it needs to be requested through the website.
 
-Once you have received a token you need to generate a configuration file to place the token within using thew `chaosiq` command:
+Once you have received a token you need to login to [ChaosIQ](http://www.chaosiq.io/) using the `chaosiq` command:
 
-`chaosiq config init`{{execute}}
+`chaosiq login`{{execute}}
 
-This command will create a `config` file in `~/.chaosiq` which is ready to take your new [ChaosIQ](http://www.chaosiq.io/) token. Open that file and you will see the following:
+This command will prompt you for the email address you used to request your [ChaosIQ](http://www.chaosiq.io/) token, and the token itself. Note that to be secure the token will not be displayed as you enter it.
 
-<pre>
-auth:
-  token: <YOUR TOKEN>
-</pre>
+```
+$ chaosiq login
+Email: <your email address>
+Token: <your token, which will be hidden as you type it>
+You are logged into ChaosIQ
+```
 
-Replace `<YOUR TOKEN>` with the token supplied by [ChaosIQ](http://www.chaosiq.io/) and save your `config` file. 
+***NOTE:*** The token is stored in a `config` file in `~/.chaosiq`.
 
 You're now ready to use [ChaosIQ](http://www.chaosiq.io/)...
