@@ -1,0 +1,38 @@
+{
+    "title": "Produce Reports from your Experiments",
+    "description": "Using the 'chaos report' command to product great reports from your experiments",
+    "difficulty": "beginner",
+    "time": "3 minutes",
+    "details": {
+        "steps": [{
+            "title": "Setting up the 'chaos report' command",
+            "text": "chaos-report-setup.md"
+        },
+        {
+            "title": "Creating reports in various formats",
+            "text": "chaos-report.md"
+        }],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "env-init.sh",
+            "code": "env-post-init.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "experiment.json",
+        "service.py"
+    ],
+    "environment": {
+        "uilayout": "editor-terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+        "showdashboard": true,
+        "dashboards": [{"name":"Local Web Browser","port":8080}]
+    },
+    "backend": {
+        "imageid": "kubernetes-python",
+        "port":8080
+    }
+}

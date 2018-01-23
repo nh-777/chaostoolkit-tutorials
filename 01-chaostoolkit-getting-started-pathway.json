@@ -16,6 +16,11 @@
         "course_id": "discovery-and-init",
         "title": "Discover and Initialise Your Experiments",
         "description": "Using the 'chaos discover' and 'chaos init' commands to explore your environment and to bootstrap your experiments"
+      },
+      {
+        "course_id": "report",
+        "title": "Produce Reports from your Experiments",
+        "description": "Using the 'chaos report' command to product great reports from your experiments"
       }
     ]
   }
