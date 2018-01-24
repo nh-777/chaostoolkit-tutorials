@@ -22,8 +22,7 @@
         }
     },
     "files": [
-        "experiment.json",
-        "service.py"
+        "chaosoutput.json"
     ],
     "environment": {
         "uilayout": "editor-terminal",
