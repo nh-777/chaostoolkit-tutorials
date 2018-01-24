@@ -1,4 +1,4 @@
-The Chaos Toolkit uses various extensions to drive chaos experiments against 
+The [Chaos Toolkit](http://chaostoolkit.org/) uses various extensions to drive chaos experiments against 
 the multiutude of technologies and layers in a typical system. The integrations 
 are typically installed in the same Python environment as the `chaos` command 
 itself.

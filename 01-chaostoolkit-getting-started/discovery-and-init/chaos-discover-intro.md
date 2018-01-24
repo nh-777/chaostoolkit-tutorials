@@ -1,4 +1,4 @@
-The Chaos Toolkit CLI, called `chaos`, comes with the `discover` command that can 
+The [Chaos Toolkit](http://chaostoolkit.org/) CLI, called `chaos`, comes with the `discover` command that can 
 be used to explore what can be acted or probed upon in a given environment from within your own chaos experiments.
 
 In our case here we already have a kubernetes environment and so we can use the `chaos discover` command to give us a report of what's available. 
