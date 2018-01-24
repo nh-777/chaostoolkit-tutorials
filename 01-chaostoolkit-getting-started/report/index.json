@@ -22,7 +22,7 @@
         }
     },
     "files": [
-        "chaosoutput.json"
+        "chaos-report.json"
     ],
     "environment": {
         "uilayout": "editor-terminal",
