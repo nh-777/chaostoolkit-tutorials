@@ -12,7 +12,9 @@ Finally you need to install the various dependencies for the formats of report y
 
 Now you can install the dependencies you will need for your own reports:
 
-`apt-get install texlive-latex-base texlive-fonts-recommended     texlive-fonts-extra texlive-latex-extra pdflatex`{{execute}}
+`apt-get install texlive-latex-base texlive-fonts-recommended     texlive-fonts-extra texlive-latex-extra`{{execute}}
 
-Now you're ready to run a chaos experiment and produce your report...
+***NOTE:*** This may take a little while, and as you to respond with a `Y` to the disk space required.
+
+With everything now set up, you're ready to run a chaos experiment and produce your report...
 
