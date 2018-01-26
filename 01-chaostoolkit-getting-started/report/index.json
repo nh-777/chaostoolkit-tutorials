@@ -22,7 +22,7 @@
         },
         "assets": {
             "host01": [
-                {"file": "chaos-report.json", "target": "/home/scrapbook/tutorial"}
+                {"file": "chaos-report.json", "target": "/root"}
             ]
         }
     },
