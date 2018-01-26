@@ -2,7 +2,7 @@ At this point you would usually run a chaos experiment to produce a report, but 
 
 The contents of the output from the `chaos run` command will be the following. Copy this into the `chaos-report.json` file so you can then use it:
 
-<pre class="file" data-filename="chaos-report.json" data-target="replace">
+<pre class="file">
 {
   "status": "failed",
   "start": "2018-01-24T13:25:55.195573",
@@ -77,6 +77,10 @@ The contents of the output from the `chaos run` command will be the following. C
   "node": "b2d6b69a2f14"
 }
 </pre>
+
+You can grab this `chaos-report.json` file using the following `curl` command:
+
+`curl https://raw.githubusercontent.com/chaostoolkit/chaostoolkit-tutorials/master/01-chaostoolkit-getting-started/report/assets/chaos-report.json > chaos-report.json`{{execute}}
 
 Now that you have the raw experimental output that would normally be produced by the `chaos run` command, you can take this and produce a report in a given format by executing the following:
 

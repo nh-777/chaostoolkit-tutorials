@@ -19,11 +19,6 @@
         },
         "finish": {
             "text": "finish.md"
-        },
-        "assets": {
-            "host01": [
-                {"file": "chaos-report.json", "target": "/root"}
-            ]
         }
     },
     "environment": {
