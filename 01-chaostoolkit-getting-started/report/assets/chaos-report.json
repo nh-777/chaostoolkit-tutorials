@@ -1,0 +1,74 @@
+{
+    "status": "failed",
+    "start": "2018-01-24T13:25:55.195573",
+    "rollbacks": [],
+    "experiment": {
+      "tags": [
+        "tutorial",
+        "filesystem"
+      ],
+      "dry": false,
+      "steady-state-hypothesis": {
+        "title": "The exchange file must exist",
+        "probes": [
+          {
+            "provider": {
+              "type": "http",
+              "url": "http://localhost:8080/"
+            },
+            "type": "probe",
+            "tolerance": [
+              200,
+              503
+            ],
+            "name": "service-is-unavailable"
+          }
+        ]
+      },
+      "title": "Does our service tolerate the loss of its exchange file?",
+      "method": [
+        {
+          "type": "action",
+          "provider": {
+            "func": "rename",
+            "type": "python",
+            "module": "os",
+            "arguments": {
+              "dst": "./exchange.dat.old",
+              "src": "./exchange.dat"
+            }
+          },
+          "name": "move-exchange-file"
+        }
+      ],
+      "description": "Our service reads data from an exchange file, can it support that file disappearing?"
+    },
+    "platform": "Linux-4.4.0-66-generic-x86_64-with-Ubuntu-16.04-xenial",
+    "duration": 0.009195566177368164,
+    "run": [
+      {
+        "status": "succeeded",
+        "start": "2018-01-24T13:25:55.198676",
+        "output": null,
+        "activity": {
+          "type": "action",
+          "provider": {
+            "func": "rename",
+            "type": "python",
+            "module": "os",
+            "arguments": {
+              "dst": "./exchange.dat.old",
+              "src": "./exchange.dat"
+            }
+          },
+          "name": "move-exchange-file"
+        },
+        "duration": 0.000509,
+        "end": "2018-01-24T13:25:55.199185"
+      }
+    ],
+    "chaoslib-version": "0.12.1",
+    "end": "2018-01-24T13:25:55.202614",
+    "node": "b2d6b69a2f14"
+  }
+  
