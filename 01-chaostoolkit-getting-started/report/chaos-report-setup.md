@@ -12,7 +12,7 @@ Finally you need to install the various dependencies for the formats of report y
 
 Now you can install the dependencies you will need for your own reports:
 
-`apt-get install -y texlive-latex-base texlive-fonts-recommended     texlive-fonts-extra texlive-latex-extra python3-tk`{{execute}}
+`apt-get install -y texlive-latex-base texlive-fonts-recommended     texlive-fonts-extra texlive-latex-extra python3-tk pandoc`{{execute}}
 
 With everything now set up, you're ready to run a chaos experiment and produce your report...
 
