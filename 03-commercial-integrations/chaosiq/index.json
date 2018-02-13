@@ -40,7 +40,7 @@
         "dashboards": [{"name":"Local Web Browser","port":8080}]
     },
     "backend": {
-        "imageid": "kubeadm_python",
+        "imageid": "kubernetes-python",
         "port":8080
     }
 }
