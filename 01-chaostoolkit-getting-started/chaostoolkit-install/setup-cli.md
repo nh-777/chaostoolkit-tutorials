@@ -20,7 +20,12 @@ current terminal session:
 
 `source ~/.venvs/chaostk/bin/activate`{{execute}}
 
-To install it run the following:
+We're going to use `pip` to manage the dependencies and install the Chaos 
+Toolkit. Let's first make sure we have the latest and greatest `pip` installed:
+
+`pip install -U pip`{{execute}}
+
+Then we can install the Chaos Toolkit itself by running the following:
 
 `pip install -U chaostoolkit`{{execute}}
 
