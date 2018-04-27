@@ -35,7 +35,7 @@ Take the address reported back by the previous command and execute a `curl` comm
 
 To check that the `consumer` and the `provider` are wired together and talking execute another `curl` command:
 
-`curl <your service address>/invokeConsumedMicroservice`
+`curl <your service address>/invokeConsumedService`
 
 You should see a response similar to:
 
