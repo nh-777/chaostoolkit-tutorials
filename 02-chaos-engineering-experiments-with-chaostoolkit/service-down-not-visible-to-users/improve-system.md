@@ -8,7 +8,7 @@ To enable the improved services you first need to take down the existing ones by
 
 `kubectl delete deployment my-consumer-app my-provider-app`{{execute}}
 
-***NOTE*** **You might get a message saying that teh my-provider-app is already not deployed. That's because your chaos experiment removed it! That's fine, the main thing is to delete the deployment for the my-consumer-app anyway so that you can deploy the version with a circuit breaker.**
+***NOTE*** **You might get a message saying that the my-provider-app is already not deployed. That's because your chaos experiment removed it! That's fine, the main thing is to delete the deployment for the my-consumer-app anyway so that you can deploy the version with a circuit breaker.**
 
 With the existing deployments removed, you can now deploy the fixed versions of the services using the following commands:
 
