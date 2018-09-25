@@ -1,4 +1,4 @@
-The [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) book describes a Stead State Hypothesis as:
+The [Chaos Engineering](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp) book describes a Steady State Hypothesis as:
 
 ***"a model that characterizes the steady state of the system based on expected values of the business metrics."***
 

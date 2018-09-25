@@ -1,4 +1,4 @@
-The power of Chaos Engineering is in discovering weaknesses in your system that you were originally ignorant of. In this case you have found that tyhere is indeed a weakness in that if the `exchange.dat` file is _"deleted"_ then your service does not deal with this gracefully at all.
+The power of Chaos Engineering is in discovering weaknesses in your system that you were originally ignorant of. In this case you have found that there is indeed a weakness in that if the `exchange.dat` file is _"deleted"_ then your service does not deal with this gracefully at all.
 
 Now it's time to learn from that surfaced weakness and improve your service so that it does meet the requirements of the tolerances and measurements specified in your Steady State Hypothesis.
 
