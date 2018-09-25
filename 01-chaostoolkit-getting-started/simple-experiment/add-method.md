@@ -1,6 +1,6 @@
-Every Chaos Toolkit experiment needs a method, which is the list of actions you'd like to perform on your system prior to checking again that the Stead State Hypothesis is within its tolerances.
+Every Chaos Toolkit experiment needs a method, which is the list of actions you'd like to perform on your system prior to checking again that the Steady State Hypothesis is within its tolerances.
 
-As well as performaing actions against your system, you can also specify probes to grab additional data points during your experiment to help you further explore the consditions present within your system while the experiment is executing.
+As well as performaing actions against your system, you can also specify probes to grab additional data points during your experiment to help you further explore the conditions present within your system while the experiment is executing.
 
 Your method for the experiment you're creating will:
 
