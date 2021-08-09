@@ -4,9 +4,8 @@ On such common weakness is a Cascading Failure. This is where the failure of a d
 
 To explore this type of weakness you already have an experiment that looks for it in your two-service system in the `experiment.json` file:
 
-```
+```json
 {
-    "version": "1.0.0",
     "title": "System is resilient to provider's failures",
     "description": "Can our consumer survive gracefully a provider's failure?",
     "tags": [
