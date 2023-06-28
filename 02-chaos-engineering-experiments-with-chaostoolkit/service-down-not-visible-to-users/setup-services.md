@@ -1,3 +1,5 @@
+TEST TEST TEST TEST TEST
+
 In this tutorial we first need to establish a set of services running in 
 Kubernetes. One service, called the `consumer`, fetches data from the other
 service, called the `provider`, over the HTTP protocol.
